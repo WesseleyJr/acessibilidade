@@ -1,0 +1,19 @@
+@import url("../../Global.css");
+
+.newsletter-container{
+    background: linear-gradient(to right, var(--preto-primario), 80%, transparent),
+    url("../../assets/img/serraDosOrgaosRecortada.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: var(--branco-primario);
+}
+.newsletter-container form input{
+    border-radius: 0;
+}
+.newsletter-container form .btn-form-newletter{
+    border-radius:0;
+    background-color: var(--amarelo-warning-bootstrap);
+    width: 50%;
+    height: 2.5rem;
+    color: var(--preto-primario);   
+}

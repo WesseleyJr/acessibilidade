@@ -1,0 +1,60 @@
+@import url("../../Global.css");
+
+#secao-acessibilidade{
+    background-color: var(--accessibility-background-color);
+}
+
+#botao-acessibilidade{
+    color: var(--font-color);
+    border: none;
+    background: none;
+    padding: 5px;
+}
+
+#icone-acessibilidade{
+    width: 28px;        
+}
+
+#icone-contraste{
+    width: 24px;        
+}
+
+#lista-botoes{
+    width: 100%;    
+}
+
+#lista-botoes > li{
+    margin-left: 5px;
+}
+
+#container-botoes{
+    display: flex;
+    gap: 0.2rem;
+    align-items: flex-end;
+}
+
+#container-botoes > .btnAce, 
+#container-botoes > .btnAceC{
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    font-size: 17px !important; 
+    background-color: var(--vermelho);
+    color: var(--branco-primario);
+}
+
+#container-botoes #diminuir {
+    height: 34px;
+    width: 34px; 
+    font-size: 14px !important; 
+}
+
+#atalhos-navegacao ul li a{
+    color: var(--font-color);
+}
+
+#atalhos-navegacao ul li a:hover{
+    color: var(--hover-color);
+}
